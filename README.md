@@ -1,1 +1,1 @@
-Este repositorio es un portafio de trabajo sobre Desarrollo UX/UI
+Presentacion de proyecto de Wallet de Web3
