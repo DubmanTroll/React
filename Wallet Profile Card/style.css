@@ -1,0 +1,79 @@
+/* 1. Reseteo básico (como limpiar el lienzo en Figma) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* 2. El Fondo (Centrado total) */
+body {
+    background-color: #0f172a; /* Azul muy oscuro tipo Blockchain */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+/* 3. La Tarjeta (Card) */
+.card-container {
+    background: #1e293b;
+    padding: 2rem;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    border: 1px solid #334155;
+    width: 320px;
+}
+
+/* 4. El Avatar (Círculo perfecto) */
+.avatar-placeholder img {
+    width: 80px;
+    height: 80px;
+    background: #38bdf8;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+/* 5. La Caja de la Wallet (Input simulado) */
+.wallet-box {
+    background: #0f172a;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #475569;
+}
+
+#wallet-address {
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+/* 6. El Botón (Interacción UX) */
+#copy-btn {
+    background: #38bdf8;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: #0f172a;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+#copy-btn:hover {
+    background: #7dd3fc;
+    transform: scale(1.05); /* Microinteracción de feedback */
+}
+
+/* 7. Estado */
+.status {
+    font-size: 0.8rem;
+    color: #64748b;
+}
